@@ -16,6 +16,7 @@ def name():
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
       </head>
       <body>
+        <h1 align="center": auto">Пейзажи Марса<h1>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <ol class="carousel-indicators">
             <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -24,13 +25,13 @@ def name():
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img src="static/img/concept-4903028_1280.jpg" class="d-block w-100" alt="Что-то не так...">
+              <img src="static/img/concept-4903028_1280.jpg" class="d-block" style="width: 1000px; margin: 0 auto" alt="Что-то не так...">
             </div>
             <div class="carousel-item">
-              <img src="static/img/mars-2051747_1280.png" class="d-block w-100" alt="Что-то не так...">
+              <img src="static/img/mars-2051747_1280.png" class="d-block" style="width: 1000px; margin: 0 auto" alt="Что-то не так...">
             </div>
             <div class="carousel-item">
-              <img src="static/img/space-1982212_1280.jpg" class="d-block w-100" alt="Что-то не так...">
+              <img src="static/img/space-1982212_1280.jpg" class="d-block" style="width: 1000px; margin: 0 auto" alt="Что-то не так...">
             </div>
           </div>
           <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">

@@ -6,7 +6,7 @@ from flask import url_for
 app = Flask(__name__)
 
 
-@app.route('/mars')
+@app.route('/carousel')
 def name():
     return '''
     <!doctype html>
